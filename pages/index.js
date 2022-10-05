@@ -99,7 +99,7 @@ export default function Home() {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossOrigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
     <title>Proton Technologies</title>
-    <link rel="stylesheet" href="https://github.com/UsmanAbid2003/nextjs-pro/blob/main/style.css"></link>
+    <link rel="stylesheet" href="https://protontechnologies.pk/style.css"></link>
     <link rel = "icon" href ={Tab.src} type = "image/x-icon"></link>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossOrigin="anonymous" async ></script>
   </Head>
@@ -119,7 +119,7 @@ export default function Home() {
     </div>
     <header>
       {/* Scripts */}
-    <Script src="https://github.com/UsmanAbid2003/nextjs-pro/blob/main/Proton.js" defer />
+    <Script src="https://protontechnologies.pk/Proton.js" defer />
     {/* <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></s> */}
     <Script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"  defer />
       
