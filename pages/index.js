@@ -105,7 +105,7 @@ export default function Home() {
   </Head>
 
     
-    <div className="part" }} />
+    <div className="part" />
     <div className="preloader">
       <div className="logo_pre" style={{background: `url(${logo.src}) no-repeat 100%`}} />
       <div className="loading_bar">
