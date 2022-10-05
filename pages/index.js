@@ -44,7 +44,7 @@ import profile_1 from '../img/1.webp';
 import profile_2 from '../img/2.webp';
 import profile_3 from '../img/3.webp';
 import Tab from '../img/Tab.png';
-//import particles from '../img/particles.webp';
+import particles from '../img/particles.webp';
 import emailjs from '@emailjs/browser';
 
 
@@ -105,7 +105,7 @@ export default function Home() {
   </Head>
 
     
-    <div className="part" />
+    <div className="part" style={{background: `url(${particles.src})`}} />
     <div className="preloader">
       <div className="logo_pre" style={{background: `url(${logo.src}) no-repeat 100%`}} />
       <div className="loading_bar">
