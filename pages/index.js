@@ -99,9 +99,9 @@ export default function Home() {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossOrigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
     <title>Proton Technologies</title>
-    <link rel="stylesheet" href="https://protontechnologies.pk/style.css"></link>
+    <link rel="stylesheet" href="https://protontechnologies.pk/react/style.css"></link>
     <link rel = "icon" href ={Tab.src} type = "image/x-icon"></link>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossOrigin="anonymous" async ></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossOrigin="anonymous" defer ></script>
   </Head>
 
     
@@ -127,7 +127,7 @@ export default function Home() {
         {/*------------------ nav start --------------------*/}
         <div className="one1">
           <nav className="navbar navbar-expand-lg navbar-light">
-            <Image src={logo} alt="Img not found" />
+            <Image src={logo} alt="Img not found" priority/>
             <button
               className="navbar-toggler"
               type="button"
@@ -214,7 +214,7 @@ export default function Home() {
                 <button className="twoa">START PROJECT</button>
               </div>
               <div className="col-sm-5">
-                <Image className="two3" src={banner} alt="Img not found"/>
+                <Image className="two3" src={banner} alt="Img not found" priority/>
               </div>
               <div className="col-sm-1"></div>
             </div>
@@ -228,7 +228,7 @@ export default function Home() {
     {/* Section 1 Start */}
     <div className="row row-cols-1 row-cols-md-2 sec_div_1">
       <div className="col" style={{ padding: "3vw" }}>
-        <Image className="img-fluid sec_img_1" src={Group2} alt="img not found" />
+        <Image className="img-fluid sec_img_1" src={Group2} alt="img not found" priority/>
       </div>
       <div className="col-lg-6 col-sm-12" style={{ padding: "3vw" }}>
         <h1 className="text-white">Hi there! i&apos;m andarson</h1>
@@ -504,6 +504,7 @@ export default function Home() {
                 src={web_ui_1_min}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -525,6 +526,7 @@ export default function Home() {
                 src={web_ui_2_min}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -546,6 +548,7 @@ export default function Home() {
                 src={web_ui_3_min}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -567,6 +570,7 @@ export default function Home() {
                 src={web_ui_4_min}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -588,6 +592,7 @@ export default function Home() {
                 src={web_ui_5_min}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -595,6 +600,7 @@ export default function Home() {
                     href={web_ui_5_min}
                     data-gallery="portfolioGallery"
                     className="portfolio-lightbox"
+                    priority
                   >
                     <i className="bx bx-plus" />
                   </a>
@@ -609,6 +615,7 @@ export default function Home() {
                 src={web_ui_6_min}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -630,6 +637,7 @@ export default function Home() {
                 src={web_ui_7_min}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -651,6 +659,7 @@ export default function Home() {
                 src={web_ui_8_min}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -672,6 +681,7 @@ export default function Home() {
                 src={web_ui_9_min}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -693,6 +703,7 @@ export default function Home() {
                 src={web_ui_10_min}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -714,6 +725,7 @@ export default function Home() {
                 src={Mobile_Portfolio_1}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -735,6 +747,7 @@ export default function Home() {
                 src={Mobile_Portfolio_2}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -756,6 +769,7 @@ export default function Home() {
                 src={Mobile_Portfolio_3}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -777,6 +791,7 @@ export default function Home() {
                 src={Mobile_Portfolio_4}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -798,6 +813,7 @@ export default function Home() {
                 src={Mobile_Portfolio_5}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -819,6 +835,7 @@ export default function Home() {
                 src={Mobile_Portfolio_6}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -840,6 +857,7 @@ export default function Home() {
                 src={Mobile_Portfolio_7}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -861,6 +879,7 @@ export default function Home() {
                 src={Mobile_Portfolio_8}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -882,6 +901,7 @@ export default function Home() {
                 src={logo_1}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -904,6 +924,7 @@ export default function Home() {
                 src={logo_2}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -926,6 +947,7 @@ export default function Home() {
                 src={logo_3}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -948,6 +970,7 @@ export default function Home() {
                 src={logo_4}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -970,6 +993,7 @@ export default function Home() {
                 src={logo_5}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -992,6 +1016,7 @@ export default function Home() {
                 src={logo_6}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -1014,6 +1039,7 @@ export default function Home() {
                 src={logo_7}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -1036,6 +1062,7 @@ export default function Home() {
                 src={logo_8}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -1080,6 +1107,7 @@ export default function Home() {
                 src={logo_10}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -1102,6 +1130,7 @@ export default function Home() {
                 src={branding_1}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -1124,6 +1153,7 @@ export default function Home() {
                 src={branding_2}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -1146,6 +1176,7 @@ export default function Home() {
                 src={branding_3}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -1168,6 +1199,7 @@ export default function Home() {
                 src={branding_4}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -1190,6 +1222,7 @@ export default function Home() {
                 src={branding_5}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -1212,6 +1245,7 @@ export default function Home() {
                 src={branding_6}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -1234,6 +1268,7 @@ export default function Home() {
                 src={branding_7}
                 className="img-fluid"
                 alt="img not found"
+                priority
               />
               <div className="portfolio-info">
                 <div className="portfolio-links">
@@ -1280,7 +1315,7 @@ export default function Home() {
         <div className="container">
           <div className="row" style={{ padding: "5% 0px 5% 0px" }}>
             <div className="col-sm-12 col-lg-4 my_cus">
-              <Image className="img-fluid my_cus" src={profile_1} objectFit="contain" layout='fill' alt="Img not found"/>
+              <Image className="img-fluid my_cus" src={profile_1} objectFit="contain" layout='fill' alt="Img not found" priority/>
             </div>
             <div className="col-sm-12 col-lg-8 my_text">
               <h3
@@ -1313,7 +1348,7 @@ export default function Home() {
         <div className="container">
           <div className="row" style={{ padding: "5% 0px 5% 0px" }}>
             <div className="col-sm-12 col-lg-4 my_cus">
-              <Image className="img-fluid my_cus" src={profile_2}  objectFit="contain" layout='fill' alt="Img not found"/>
+              <Image className="img-fluid my_cus" src={profile_2}  objectFit="contain" layout='fill' alt="Img not found" priority/>
             </div>
             <div className="col-sm-12 col-lg-8 my_text">
               <h3
@@ -1346,7 +1381,7 @@ export default function Home() {
         <div className="container">
           <div className="row" style={{ padding: "5% 0px 5% 0px" }}>
             <div className="col-sm-12 col-lg-4 my_cus">
-              <Image className="img-fluid my_cus" src={profile_3} objectFit="contain" layout='fill' alt="Img not found"/>
+              <Image className="img-fluid my_cus" src={profile_3} objectFit="contain" layout='fill' alt="Img not found" priority/>
             </div>
             <div className="col-sm-12 col-lg-8 my_text">
               <h3
@@ -1395,7 +1430,7 @@ export default function Home() {
                 className="sec_img_5"
                 src={web_ui_1_min}
                 alt="img not found"
-                
+                priority
               />
             </div>
             <div className="card-desc">
@@ -1422,6 +1457,7 @@ export default function Home() {
                 className="sec_img_5"
                 src={web_ui_2_min}
                 alt="img not found"
+                priority
               />
             </div>
             <div className="card-desc">
@@ -1448,6 +1484,7 @@ export default function Home() {
                 className="sec_img_5"
                 src={web_ui_3_min}
                 alt="img not found"
+                priority
               />
             </div>
             <div className="card-desc">
@@ -1597,7 +1634,7 @@ export default function Home() {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-3 footer_content">
-            <Image className="fiv1" src={logo}  alt="Img not found"/>
+            <Image className="fiv1" src={logo}  alt="Img not found" priority/>
             <p className="fiv2">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
