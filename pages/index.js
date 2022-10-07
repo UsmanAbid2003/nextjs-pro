@@ -1410,10 +1410,10 @@ export default function Home() {
       </div>
     </div>
     <div className="slider_btn">
-      <div className="prev_btn" >
+      <div className="prev_btn" style={{ background: `url('/_next/static/media/left.01ac62c6.png') `}} >
         <i className="fa fa-arrow-left" aria-hidden="true" />
       </div>
-      <div className="nxt_btn">
+      <div className="nxt_btn" style={{ background: `url('/_next/static/media/right.b9dfad6d.png') `}}>
         <i className="fa fa-arrow-right" aria-hidden="true" />
       </div>
     </div>
