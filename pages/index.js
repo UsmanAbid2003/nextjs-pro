@@ -44,7 +44,7 @@ import profile_1 from '../img/1.webp';
 import profile_2 from '../img/2.webp';
 import profile_3 from '../img/3.webp';
 import Tab from '../img/Tab.png';
-import particles from '../img/particles.webp';
+//import particles from '../img/particles.webp';
 import right from '../img/right.png';
 import left from '../img/left.png';
 import emailjs from '@emailjs/browser';
